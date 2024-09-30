@@ -3,7 +3,7 @@
 using namespace std;
 
 void bubble(vector<int>&temp){
-  int learn=5;
+  int size=10;
   for(int i=1;i<=temp.size();i++){
     for(int j=0;j<temp.size()-i;j++){
       if(temp[i]>temp[i+1]){
