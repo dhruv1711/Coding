@@ -14,7 +14,7 @@ void bubble(vector<int>&temp){
 
 }
 int main(){
-  vector<int>temp;
-  bubble(temp);
+  vector<int>arr;
+  bubble(arr);
   return;
 }
